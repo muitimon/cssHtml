@@ -1,6 +1,5 @@
 body {
     background-color:#66CCCC;
-    background-image: url("image/zeldalogo.png");
 }
 .youtube iframe{
     position:absolute;
@@ -11,6 +10,12 @@ body {
     width: auto; 
     height: auto;
     z-index: -100;
+}
+.backgroundPng{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    background: url("image/backgroundPng.png");
 }
 h1 {
     padding: .5em .75em;
