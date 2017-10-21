@@ -15,7 +15,7 @@ body {
     -o-filter: brightness(0.4);
     -ms-filter: brightness(0.4);
     filter: brightness(0.4);*/
-    opacity: 0.5;
+    opacity: 0.1;
 }
 .backgroundPng{
     position: absolute;
@@ -47,4 +47,9 @@ h2 {
     background-color:#FFFFFF;
     padding-bottom: .5em;
     border-bottom: 1px solid #ccc;
+}
+p.text{
+    color: #C0C0C0;
+    text-align: center;
+    font: bold large/300%  "ＭＳ 明朝";
 }
