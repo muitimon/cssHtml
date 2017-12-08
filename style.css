@@ -47,7 +47,50 @@ body {
   -webkit-transform: translate3d(-50%, -50%, 0);
           transform: translate3d(-50%, -50%, 0);
 }
+.github {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  border: 1px solid red;
+  top: 110%;
+  left: 70%;
+	  
+}
 
+.github img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  min-width: 100%;
+  min-height: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
+.pixiv {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  border: 1px solid red;
+  top: 110%;
+  left: 30%;
+	  
+}
+
+.pixiv img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  min-width: 100%;
+  min-height: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
 
 
 /*.game{
