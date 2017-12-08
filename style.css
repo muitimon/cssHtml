@@ -10,11 +10,6 @@ body {
     width: auto; 
     height: auto;
     z-index: -100;
-   /* -webkit-filter: brightness(0.4);
-    -moz-filter: brightness(0.4);
-    -o-filter: brightness(0.4);
-    -ms-filter: brightness(0.4);
-    filter: brightness(0.4);*/
     opacity: 0.1;
 }
 .backgroundPng{
@@ -27,11 +22,93 @@ body {
     /*background: url("image/zeldalogo.png");*/
     backgound-color: rgba(255,0,0,0.5);
 }
-.fate{
+
+
+
+.game {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  border: 1px solid red;
+  top: 110%;
+  left: 50%;
+	  
+}
+
+.game img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  min-width: 100%;
+  min-height: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
+.github {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  border: 1px solid red;
+  top: 110%;
+  left: 70%;
+	  
+}
+
+.github img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  min-width: 100%;
+  min-height: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
+.pixiv {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  border: 1px solid red;
+  top: 110%;
+  left: 30%;
+	  
+}
+
+.pixiv img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  min-width: 100%;
+  min-height: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
+
+
+/*.game{
+    width: 100px;
+    height: 100px;
+    background: url("image/game.png");
+    background-size: 100px 100px;
+    filter: gray;
+    filter: grayscale(1); // W3C
+    &:hover {
+	-webkit-filter: grayscale(0); // webkit
+	filter: none; // IE6-9
+	filter: grayscale(0); // W3C
+    }
     position: absolute;
     bottom: 10px;
-    
-}
+    right: 10px;
+}*/
 h1 {
     padding: .5em .75em;
     background-color:#FFFFFF;
