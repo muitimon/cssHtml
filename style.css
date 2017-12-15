@@ -12,13 +12,7 @@ body {
     height: auto;
     z-index: -100;
     opacity: 0.1;
-    overflow-y: scroll;
 }
-
-.youtube{
-overflow-y: scroll;
-}
-
 .backgroundPng{
     position: absolute;
     opacity: 0.5;
