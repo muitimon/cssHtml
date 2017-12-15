@@ -2,6 +2,7 @@ body {
     background-color:#000000;
 }
 .youtube iframe{
+    
     position:absolute;
     right: 0; 
     top: 100;
@@ -24,19 +25,7 @@ body {
 }
 
 
-
-.game {
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  position: absolute;
-  border: 1px solid red;
-  top: 110%;
-  left: 50%;
-	  
-}
-
-.game img {
+.menuicon img {
   position: absolute;
   width: 100px;
   height: 100px;
@@ -46,69 +35,28 @@ body {
   top: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
           transform: translate3d(-50%, -50%, 0);
+}
+.menuicon{
+ width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  border: 1px solid red;
+  top: 110%;
+}
+.game {
+    left: 50%;	  
 }
 .github {
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  position: absolute;
-  border: 1px solid red;
-  top: 110%;
-  left: 70%;
-	  
-}
-
-.github img {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  min-width: 100%;
-  min-height: 100%;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-          transform: translate3d(-50%, -50%, 0);
+    left: 70%;	  
 }
 .pixiv {
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  position: absolute;
-  border: 1px solid red;
-  top: 110%;
-  left: 30%;
-	  
+    left: 30%;	  
+}
+.amazon{
+    left: 90%;
 }
 
-.pixiv img {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  min-width: 100%;
-  min-height: 100%;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-          transform: translate3d(-50%, -50%, 0);
-}
-
-
-/*.game{
-    width: 100px;
-    height: 100px;
-    background: url("image/game.png");
-    background-size: 100px 100px;
-    filter: gray;
-    filter: grayscale(1); // W3C
-    &:hover {
-	-webkit-filter: grayscale(0); // webkit
-	filter: none; // IE6-9
-	filter: grayscale(0); // W3C
-    }
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-}*/
 h1 {
     padding: .5em .75em;
     background-color:#FFFFFF;
