@@ -2,6 +2,7 @@ body {
     background-color:#000000;
 }
 .youtube iframe{
+    
     position:absolute;
     right: 0; 
     top: 100;
@@ -11,7 +12,13 @@ body {
     height: auto;
     z-index: -100;
     opacity: 0.1;
+    overflow-y: scroll;
 }
+
+.youtube{
+overflow-y: scroll;
+}
+
 .backgroundPng{
     position: absolute;
     opacity: 0.5;
@@ -44,15 +51,17 @@ body {
   top: 110%;
 }
 .game {
-  left: 50%;	  
+    left: 50%;	  
 }
 .github {
-  left: 70%;	  
+    left: 70%;	  
 }
 .pixiv {
-  left: 30%;	  
+    left: 30%;	  
 }
-
+.amazon{
+    left: 90%;
+}
 
 h1 {
     padding: .5em .75em;
