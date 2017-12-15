@@ -44,6 +44,10 @@ body {
   border: 1px solid red;
   top: 110%;
 }
+
+.twitter{
+    left: 10%;
+}
 .game {
     left: 50%;	  
 }
