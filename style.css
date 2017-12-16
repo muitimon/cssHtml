@@ -46,19 +46,19 @@ body {
 }
 
 .twitter{
-    left: 10%;
+    left: 5%;
 }
 .game {
-    left: 50%;	  
-}
-.github {
-    left: 70%;	  
+    left: 25%;	  
 }
 .pixiv {
-    left: 30%;	  
+    left: 45%;	  
+}
+.github {
+    left: 65%;	  
 }
 .amazon{
-    left: 90%;
+    left: 85%;
 }
 
 h1 {
